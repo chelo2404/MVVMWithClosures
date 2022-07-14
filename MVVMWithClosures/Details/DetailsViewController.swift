@@ -9,10 +9,14 @@ import Foundation
 import UIKit
 
 class DetailsViewController: UIViewController {
+    // This view could be handled by passing the Band element from the HomeViewController
+    // or having a cached repository to get the information of the band without the need of a network call.
+    // This will be added as an improvement in the future.
     var bandId = 0
     
     let activityIndicator = UIActivityIndicatorView()
     let detailsViewModel = DetailsViewModel()
+    @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var bandName: UILabel!
     @IBOutlet weak var bandThumbnail: UIImageView!
     @IBOutlet weak var bandGenre: UILabel!
@@ -42,6 +46,7 @@ class DetailsViewController: UIViewController {
                 self?.bandThumbnail.load(url: self?.detailsViewModel.bandData?.image)
                 self?.bandGenre.text = self?.detailsViewModel.bandData?.genre?.rawValue
                 self?.bandInformation.text = self?.detailsViewModel.bandData?.info
+                self?.scrollView.resizeScrollViewContentSize()
             }
         }
     }

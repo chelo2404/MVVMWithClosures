@@ -27,6 +27,7 @@
 		C09B213F2868F43600A1FB16 /* BandCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09B213E2868F43600A1FB16 /* BandCell.swift */; };
 		C09B21412868F9F500A1FB16 /* BandCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09B21402868F9F500A1FB16 /* BandCellViewModel.swift */; };
 		C09B21442868FB5100A1FB16 /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09B21432868FB5100A1FB16 /* UIImageView+.swift */; };
+		C0B71162287FA378006B3221 /* UIScrollView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B71161287FA378006B3221 /* UIScrollView+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		C09B213E2868F43600A1FB16 /* BandCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandCell.swift; sourceTree = "<group>"; };
 		C09B21402868F9F500A1FB16 /* BandCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandCellViewModel.swift; sourceTree = "<group>"; };
 		C09B21432868FB5100A1FB16 /* UIImageView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+.swift"; sourceTree = "<group>"; };
+		C0B71161287FA378006B3221 /* UIScrollView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				C09B21432868FB5100A1FB16 /* UIImageView+.swift */,
+				C0B71161287FA378006B3221 /* UIScrollView+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -359,6 +362,7 @@
 				C09B21392868E99E00A1FB16 /* BandRepository.swift in Sources */,
 				C09B213F2868F43600A1FB16 /* BandCell.swift in Sources */,
 				C09B21322868E66E00A1FB16 /* DetailsViewController.swift in Sources */,
+				C0B71162287FA378006B3221 /* UIScrollView+.swift in Sources */,
 				C09B21342868E67900A1FB16 /* DetailsViewModel.swift in Sources */,
 				C09B21362868E68400A1FB16 /* Band.swift in Sources */,
 			);

@@ -47,7 +47,6 @@ class DetailsViewController: UIViewController {
     }
     
     private func setDefaultValues() {
-        self.bandThumbnail.image = UIImage(named: "placeholder")
         self.bandName.text = ""
         self.bandGenre.text = ""
         self.bandInformation.text = ""
